@@ -1,4 +1,4 @@
-# Airware iOS SDK
+# Airware iOS Library
 
 # Introduction 
 The Airware iOS SDK allows third parties to connect and interface to an Airware Appliance via Bluetooth. 
@@ -43,7 +43,7 @@ pod install --repo-update
 pod update AirwareApplianceApi
 ```
 
-### Use the library in your project
+# Use the library in your project
 To start using the library in your Swift project, add
 
 ```import AirwareApplianceApi```
