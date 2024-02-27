@@ -9,21 +9,23 @@ It includes:
 * API Documentation 
 
 # Installation
-The recommended way to install the ApplianceServicesIosApi is using CocoaPods, but you can also add it to your project manually as an xcframework.
+The recommended way to install the ApplianceServicesIosLibrary is using CocoaPods, 
+but you can also add it to your project manually as an xcframework.
 
 ## Cocoapods installation process
 
 ### Access the repository
+Add your scoped access token to your git credentials manager
+git config --global http.https://github.com/AirwareSolutionsLimited "Authorization: token YOUR_TOKEN"
+
 Use your access token to checkout the example application source code using git clone.
 ```
-git clone https://<YOUR_ACCESS_TOKEN>@github.com/AirwareAero/ApplianceServicesIosApi.git
+git clone https://github.com/AirwareSolutionsLimited/ApplianceServicesIos.git
 ```
-<small>(Your access token will now be stored with your github account keys, and ensures the podfile can be downloaded.)</small>
-
 
 Add the Airware package repository to your cocoapod repositories
 ```
-pod repo add airware https://github.com/AirwareAero/packages.git
+pod repo add airware https://github.com/AirwareSolutionsLimited/Podspecs.git
 ```
 
 ### Add the pod to your project
