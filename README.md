@@ -15,8 +15,11 @@ but you can also add it to your project manually as an xcframework.
 ## Cocoapods installation process
 
 ### Access the repository
-Add your scoped access token to your git credentials manager
-git config --global http.https://github.com/AirwareSolutionsLimited "Authorization: token YOUR_TOKEN"
+Add your scoped access token to git credentials
+
+```
+git config --global https://github.com/AirwareSolutionsLimited "Authorization: token YOUR_TOKEN"
+```
 
 Use your access token to checkout the example application source code using git clone.
 ```
@@ -40,7 +43,7 @@ pod install --repo-update
 pod update AirwareApplianceApi
 ```
 
-To start using the project, add
-```import AirwareApplianceApi```
+### Use the library in your project
+To start using the library in your Swift project, add
 
-to your Swift project.
+```import AirwareApplianceApi```
