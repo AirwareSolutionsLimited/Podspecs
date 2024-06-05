@@ -1,4 +1,4 @@
-# Airware iOS Library
+# Installation of the Airware iOS Library
 
 # Introduction 
 The Airware iOS SDK allows third parties to connect and interface to an Airware Appliance via Bluetooth. 
