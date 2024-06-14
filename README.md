@@ -7,17 +7,17 @@ The services assist a passenger during check-in and travel, providing real-time 
 
 ## Installation
 
-[Installation for iOS](https://github.com/AirwareSolutionsLimited/AirwareServicesIos-Sandbox/blob/main/InstallationIos.md)
+[Installation for iOS](https://github.com/AirwareSolutionsLimited/AirwareServicesIos/blob/main/InstallationIos.md)
 
-[Installation for Android](https://github.com/AirwareSolutionsLimited/AirwareServicesAndroid-Sandbox/blob/main/InstallationAndroid.md)
+[Installation for Android](https://github.com/AirwareSolutionsLimited/AirwareServicesAndroid/blob/main/InstallationAndroid.md)
 
 
 ## Sample app 
 Source code is provided for sample apps which demonstrate use of the library.
 
-[iOS (Swift)](https://github.com/AirwareSolutionsLimited/AirwareServicesIos-Sandbox)
+[iOS (Swift)](https://github.com/AirwareSolutionsLimited/AirwareServicesIos)
 
-[Android (Kotlin)](https://github.com/AirwareSolutionsLimited/AirwareServicesAndroid-Sandbox)
+[Android (Kotlin)](https://github.com/AirwareSolutionsLimited/AirwareServicesAndroid)
 
 
 
