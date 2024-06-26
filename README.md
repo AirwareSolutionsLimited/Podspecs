@@ -7,10 +7,9 @@ The services assist a passenger during check-in and travel, providing real-time 
 
 ## Installation
 
-[Installation for iOS](https://github.com/AirwareSolutionsLimited/AirwareServicesIos/blob/main/InstallationIos.md)
+[Installation for iOS](https://github.com/AirwareSolutionsLimited/Podspecs/blob/main/InstallationIos.md)
 
-[Installation for Android](https://github.com/AirwareSolutionsLimited/AirwareServicesAndroid/blob/main/InstallationAndroid.md)
-
+[Installation for Android](https://github.com/AirwareSolutionsLimited/Podspecs/blob/main/InstallationAndroid.md)
 
 ## Sample app 
 Source code is provided for sample apps which demonstrate use of the library.
