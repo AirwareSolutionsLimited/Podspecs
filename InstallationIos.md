@@ -6,7 +6,7 @@ Use the [contact form](https://airware.aero/contact/) to request a token.
 ## Installation for iOS
 
 
-### Add your scoped access token to git credentials to access the source and pod files
+### Add your scoped access token to git credentials to access the source and library files
 
 Store the tokens in whichever manner fits your practices for checking out code and building on CI; 
 e.g. environment variables or secure files.
@@ -17,6 +17,7 @@ git config --global credential.https://github.com/AirwareSolutionsLimited.passwo
 ```
 
 ### Checkout the sample app source code
+
 ```
 git clone https://github.com/AirwareSolutionsLimited/AirwareServicesIos
 ```
@@ -30,7 +31,14 @@ pod update AirwareServicesLibrary
 
 Then build and run the Sample.xcworkspace project in XCode 15+
 
-## Swift (CocoaPods) Installation in your own project
+## Swift (Swift Package Manager) installation in your own project
+
+Add in XCode by going to `File` -> `Add Packages` -> `Add Package Dependency...` and enter the URL:
+```
+https://github.com/AirwareSolutionsLimited/AirwareServicesLibrary.git
+```
+
+## Swift (CocoaPods) installation in your own project
 
 
 ### Add the Airware Repository and Library to your Podfile
