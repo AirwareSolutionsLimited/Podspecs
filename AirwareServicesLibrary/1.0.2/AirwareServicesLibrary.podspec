@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name                     = 'AirwareServicesLibrary'
-    spec.version                  = '1.0.2'
+    spec.version                  = '1.0.3'
     spec.homepage                 = 'https://github.com/AirwareSolutionsLimited/Podspecs'
     spec.source                   = { :git => "https://github.com/AirwareSolutionsLimited/AirwareServicesLibrary.git", :tag => spec.version }
     spec.authors                  = { "Airware" => "mobile@airware.aero" }

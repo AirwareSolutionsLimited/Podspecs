@@ -38,6 +38,10 @@ Add in XCode by going to `File` -> `Add Packages` -> `Add Package Dependency...`
 https://github.com/AirwareSolutionsLimited/AirwareServicesLibrary.git
 ```
 
+Since Xcode 13.3.x, the xcodebuild command and Xcode try to authenticate using a GitHub access token stored in the keychain.
+
+To use binary frameworks, we need to put a Github access token to the keychain. 
+
 ## Swift (CocoaPods) installation in your own project
 
 
