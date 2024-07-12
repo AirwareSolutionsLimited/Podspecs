@@ -16,6 +16,8 @@ git config --global credential.https://github.com/AirwareSolutionsLimited.userna
 git config --global credential.https://github.com/AirwareSolutionsLimited.password <YOUR_AIRWARE_GPR_PASSWORD>
 ```
 
+
+
 ### Checkout the sample app source code
 
 ```
@@ -38,9 +40,16 @@ Add in XCode by going to `File` -> `Add Packages` -> `Add Package Dependency...`
 https://github.com/AirwareSolutionsLimited/AirwareServicesLibrary.git
 ```
 
-Since Xcode 13.3.x, the xcodebuild command and Xcode try to authenticate using a GitHub access token stored in the keychain.
+The xcodebuild command and Xcode will try to authenticate using a GitHub access token stored in the keychain. (This is because the library is distributed as a binary framework).
 
-To use binary frameworks, we need to put a Github access token to the keychain. 
+To download the binary framework, you'll need to put a Github access token to the keychain.
+In XCode, you can add your <YOUR_AIRWARE_GPR_USER> and <YOUR_AIRWARE_GPR_PASSWORD> at the time that you add the package to your project.
+
+On your CI system, add the credentials to the keychain as follows:
+```
+security add-internet-password -a "<YOUR_AIRWARE_GPR_USER>" -s "github.com" -r htps -w "<YOUR_AIRWARE_GPR_PASSWORD>" -T "$(xcode-select -p)/usr/bin/xcodebuild" -T "/usr/bin/xcodebuild" -U login.keychain
+security set-internet-password-partition-list -S apple-tool:,apple: -s "github.com" login.keychain
+```  
 
 ## Swift (CocoaPods) installation in your own project
 
