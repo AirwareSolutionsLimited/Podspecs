@@ -1,9 +1,13 @@
 
 # Module Airware Services Library
 
-The Airware Services Library connects a passenger with Airport and Airline Information services.
+The Airware Services Libraries connect a passenger with Airport and Airline services.
 
 The services assist a passenger during check-in and travel, providing real-time updates for bag drop location, boarding gate, queue times and baggage collection points.
+
+Location services provide proximity alerts when a passenger is in a baggage processing area.
+
+Infrastructure services provide access to Bag Tag Printing, Boarding Pass Printing, and Weigh Scale appliances.
 
 ## Documentation 
 https://airwaresolutionslimited.github.io/AirwareServicesLibrary/
