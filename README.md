@@ -15,11 +15,6 @@ https://airwaresolutionslimited.github.io/AirwareServicesLibrary/
 [Installation for Android](https://github.com/AirwareSolutionsLimited/Podspecs/blob/main/InstallationAndroid.md)
 
 ## Sample app 
-Source code is provided for sample apps which demonstrate use of the library.
 
-[iOS (Swift)](https://github.com/AirwareSolutionsLimited/AirwareServicesIos)
-
-[Android (Kotlin)](https://github.com/AirwareSolutionsLimited/AirwareServicesAndroid)
-
-
+Source code is provided for sample apps for [iOS (Swift) and Android (Kotlin)](https://github.com/AirwareSolutionsLimited/AirwareServicesSampleCode) which demonstrate use of the library.
 
