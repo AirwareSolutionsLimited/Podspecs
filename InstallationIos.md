@@ -57,8 +57,10 @@ pod update && pod install
 
 # Use the library in your iOS project
 
-To start using the library in your iOS Swift project, add imports for the frameworks you use
+To start using the library in your iOS Swift project, add imports for the frameworks you use.
+
 **import** AirwareLocationServices
+
 **import** AirwareInfrastructureServices
 
 
