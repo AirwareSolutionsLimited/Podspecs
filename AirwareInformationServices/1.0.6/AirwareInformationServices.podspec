@@ -8,5 +8,5 @@ Pod::Spec.new do |spec|
     spec.summary                  = 'AirwareInformationServices Library'
     spec.ios.deployment_target    = '14'
     spec.swift_version = '6.0'
-    spec.dependency 'AirwareServicesLibrary', '1.0.0'
+    spec.dependency 'AirwareServicesLibrary', '1.0.8'
 end
