@@ -29,7 +29,7 @@
 
 **class:** AirwarePassengerAPI -> AirwareInfrastructureService
 
-**initialization**: AirwarePassengerAPI(adapter, accountSigningKey, serviceSubscriptionKey, application) -> AirwareInfrastructureService.initialize(context, accountSigningkey, subscriptionKey, analytics)
+**initialization**: AirwarePassengerAPI(adapter, accountSigningKey, serviceSubscriptionKey, application) -> AirwareInfrastructureService.initialize(context, accountSigningkey, subscriptionKey)
 
 **All callback enums**
 SCREAMING_SNAKE_CASE -> PascalCase

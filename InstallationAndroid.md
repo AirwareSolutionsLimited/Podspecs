@@ -11,7 +11,7 @@ Use the [contact form](https://airware.aero/contact/) to request a token.
 *NOTE* 
 Access is via user and password tokens.
 ```
-For all access via git (all sample source code, and the library iOS pod and swift package frameworks), use <YOUR_AIRWARE_GPR_PASSWORD>
+For all access via git (sample source code, iOS pod and swift package frameworks), use <YOUR_AIRWARE_GPR_PASSWORD>
 <YOUR_AIRWARE_GPR_USER>
 <YOUR_AIRWARE_GPR_PASSWORD>
 
