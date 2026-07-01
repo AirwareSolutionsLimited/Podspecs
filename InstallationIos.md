@@ -94,7 +94,7 @@ pod repo update && pod update
 
 ## Swift Package Manager installation
 
-Open your project in XCode, and choose File -> Add Packages -> Add Package Dependency and paste the url https://github.com/AirwareSolutionsLimited/AirwareServicesSampleCode into the search box
+Open your project in XCode, and choose File -> Add Packages -> Add Package Dependency and paste the url https://github.com/AirwareSolutionsLimited/AirwareServicesLibrary into the search box
 
 
 If you set the credentials in the previous steps, you should not be prompted for a username and password; however some SPM configurations required an additional ~/.netrc file entry.
